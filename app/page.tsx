@@ -14,7 +14,7 @@ const getPosts = async () => {
 
 export default async function Home() {
   const posts = await getPosts();
-  console.log('Posts: ', posts);
+  // console.log('Posts: ', posts[0]);
 
   return (
     <main className="px-10 leading-7">
